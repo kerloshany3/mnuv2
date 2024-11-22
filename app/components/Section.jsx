@@ -13,6 +13,14 @@ const Physics = () => {
 
         // Navigate to the result page with the input value as a query parameter
         router.push(`/result?numSec=${encodeURIComponent(numSec)}`);
+        
+
+        if (numSec > 18) { 
+            router.push(`/notfound`);
+        }
+
+
+
     };
 
     return (
