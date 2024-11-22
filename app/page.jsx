@@ -5,7 +5,7 @@ import Section from "./components/Section";
 import { dataofcollegearba } from "./data";
 export default function Home() {
   return (
-    <div className=" font-bungee ">
+    <div className=" font-bungee lg:w-2/6 justify-center m-auto ">
 
       <div className=" shadow-sm shadow-slate-400/40 bg-slate-700 border-slate-600 border-4 m-5 rounded-xl pb-5">
         <div className="  m-auto flex justify-center p-10">

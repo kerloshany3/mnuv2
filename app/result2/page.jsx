@@ -13,9 +13,7 @@ export default function Result({ searchParams }) {
 
     return (
         <div className="m-auto justify-center place-items-center flex flex-col">
-            <h1 className="font-bungee text-7xl p-4 mt-4 text-slate-900 bg-slate-500 rounded-xl w-6/12 text-center">
-                Value from URL: {numSec}
-            </h1>
+          
 
             <div >
                 <h2 className=' font-arabicUI text-slate-400 text-4xl border-4 border-slate-400  w-fit p-2 m-auto flex justify-center rounded-xl my-9'> <span className='font-bungee'>{numSec}</span>&nbsp; سكشن</h2>
