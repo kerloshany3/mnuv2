@@ -1,4 +1,11 @@
 // data.js
+
+export const tanbeh = {
+/*     massege: " تنبيه كل سكاشن الماث في مبني G الدور التاني ",
+ */    danger: true,
+       massege: "تيست"
+}
+
 export const dataofcollegesapt = [
     {
         id: 1,
@@ -601,7 +608,7 @@ export const dataofcollegehad = [
                 time: 9,
                 location: "S01 مبني G الدور التاني"
             }
-            
+
             ,
             {
                 id: 2,
@@ -793,7 +800,7 @@ export const dataofcollegemond = [
                 time: 9,
                 location: "S01 مبني G الدور التاني"
             },
-            
+
 
         ],
     },
@@ -807,7 +814,7 @@ export const dataofcollegemond = [
                 time: 9,
                 location: "S01 مبني G الدور التاني"
             }
-            
+
         ],
     },
     {
@@ -929,7 +936,7 @@ export const dataofcollegemond = [
         id: 16,
         tasks: [
 
-         
+
             {
                 id: 1,
                 name: "محاضرة it  ",
@@ -1643,7 +1650,7 @@ export const dataofcollegearba = [
                 time: 11,
                 location: "T01 مبني F الدور التالت"
             },
-             {
+            {
                 id: 2,
                 name: "محاضرة اقتصاديات الحوسبة",
                 time: 1,

@@ -1,8 +1,9 @@
 
 
 
-import { dataofcollegesapt, dataofcollegehad, dataofcollegemond, dataofcollegetlat, dataofcollegearba } from '../data';
+import { dataofcollegesapt, dataofcollegehad, dataofcollegemond, dataofcollegetlat, dataofcollegearba, tanbeh } from '../data';
 import { FaBookmark } from "react-icons/fa";
+import { TiWarning } from "react-icons/ti";
 
 
 const page = ({ searchParams }) => {
@@ -11,8 +12,8 @@ const page = ({ searchParams }) => {
 
     // eslint-disable-next-line react-hooks/rules-of-hooks
 
-    
-    
+
+
 
     // Find the section that matches the numSec
     const section = dataofcollegesapt.find(item => item.id === numSec);
@@ -21,34 +22,29 @@ const page = ({ searchParams }) => {
     const section3 = dataofcollegetlat.find(item => item.id === numSec);
     const section4 = dataofcollegearba.find(item => item.id === numSec);
 
-
-
-
-
-        console.log(numSec)
-
-
-
+    const tanbehgreen = 'flex text-green-800 text-green-900 place-items-center m-auto justify-center gap-2'
+    const tanbehyellow = 'flex text-yellow-800 place-items-center m-auto justify-center gap-2'
 
 
     return (
 
-
-
-
-
-
-
         <div className=' font-arabicUI'>
-
-
-
-
-
-
             <div >
                 <h2 className=' font-arabicUI text-slate-400 text-4xl border-4 border-slate-400  w-fit p-2 m-auto flex justify-center rounded-xl my-9'> <span className='font-bungee'>{numSec}</span>&nbsp; سكشن</h2>
 
+                {tanbeh.massege ?
+                    <h2 className={tanbeh.danger ? "bg-yellow-400  outline-dashed outline-2 outline-offset-4 outline-yellow-400 text-yellow-950 font-arabicUI text-3xl mx-5 rounded-lg p-3 my-5 shadow-2xl shadow-yellow-400/50 text-wrap justify-center m-auto text-center " : "bg-green-500 outline-dashed outline-2 outline-offset-4 outline-green-400 font-arabicUI text-3xl mx-5 rounded-lg p-3 my-5 shadow-2xl shadow-green-500/50  text-green- text-wrap justify-center m-auto text-center "} >
+
+                        <div className={!tanbeh.danger ? tanbehgreen : tanbehyellow} >
+                            <span> تنبيه </span>
+                            <TiWarning />
+
+                        </div>
+
+                        {tanbeh.massege}
+
+                    </h2>
+                    : ""}
 
 
 
