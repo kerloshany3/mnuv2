@@ -3,7 +3,7 @@
 export const tanbeh = {
 /*     massege: " تنبيه كل سكاشن الماث في مبني G الدور التاني ",
  */    danger: true,
-       massege: "تيست"
+       massege: ""
 }
 
 export const dataofcollegesapt = [
