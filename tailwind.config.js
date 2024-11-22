@@ -7,6 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+     
+      fontFamily: {
+        bungee: ['Bungee', 'sans-serif'], // Add Bungee font
+        arabicUI: ['arabicUI', 'sans-serif'],
+        abril: ['Abril Fatface', 'serif'],// Add Bungee font
+      },
+
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
