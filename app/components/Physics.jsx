@@ -12,7 +12,7 @@ const Physics = () => {
         console.log(numSec); // Log the input value
 
         // Navigate to the result page with the input value as a query parameter
-        router.push(`/result?numSec=${encodeURIComponent(numSec)}`);
+        router.push(`/result2?numSec=${encodeURIComponent(numSec)}`);
     };
 
     return (
