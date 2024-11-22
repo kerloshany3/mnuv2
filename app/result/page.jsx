@@ -30,7 +30,7 @@ const page = ({ searchParams }) => {
 
         <div className=' font-arabicUI'>
             <div >
-                <h2 className=' font-arabicUI text-slate-400 text-4xl border-4 border-slate-400  w-fit p-2 m-auto flex justify-center rounded-xl my-9'> <span className='font-bungee'>{numSec}</span>&nbsp; سكشن</h2>
+                <h2 className='bg-yellow-400  w-fit justify-center outline-dashed outline-2 outline-offset-4 outline-yellow-400 text-yellow-950 font-arabicUI text-4xl mx-5 rounded-lg p-3 shadow-2xl shadow-yellow-400/50 text-wrap mr-auto ml-auto my-10  m-auto text-center'> <span className='font-bungee'>{numSec}</span>&nbsp; سكشن</h2>
 
                 {tanbeh.massege ?
                     <h2 className={tanbeh.danger ? "bg-yellow-400  outline-dashed outline-2 outline-offset-4 outline-yellow-400 text-yellow-950 font-arabicUI text-3xl mx-5 rounded-lg p-3 my-5 shadow-2xl shadow-yellow-400/50 text-wrap justify-center m-auto text-center " : "bg-green-500 outline-dashed outline-2 outline-offset-4 outline-green-400 font-arabicUI text-3xl mx-5 rounded-lg p-3 my-5 shadow-2xl shadow-green-500/50  text-green- text-wrap justify-center m-auto text-center "} >
