@@ -1,19 +1,18 @@
 import localFont from "next/font/local";
 import "./globals.css";
-const ArabicUI = localFont({ src: './fonts/ArabicUIDisplayBlack.ttf' })
+import { Bungee } from 'next/font/google';
 import { Abril_Fatface } from 'next/font/google';
+const ArabicUI = localFont({ src: './fonts/ArabicUIDisplayBlack.ttf' })
 import Link from "next/link";
+const bungee = Bungee({
+  subsets: ['latin'], // Load required subsets
+  weight: '400', // Add desired weights
+});
+const abrilFatface = Abril_Fatface({
+  subsets: ['latin'], // Load required subsets
+  weight: '400', // Abril Fatface only supports 400 weight
+});
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
 export const metadata = {
   title: "MNU | V1",

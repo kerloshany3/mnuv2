@@ -9,7 +9,7 @@ module.exports = {
     extend: {
      
       fontFamily: {
-        bungee: ['Bungee', 'sans-serif'], // Add Bungee font
+        bungee: ['Bungee', ], // Add Bungee font
         arabicUI: ['arabicUI', 'sans-serif'],
         abril: ['Abril Fatface', 'serif'],// Add Bungee font
       },
