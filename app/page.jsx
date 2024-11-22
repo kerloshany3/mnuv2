@@ -9,10 +9,9 @@ export default function Home() {
 
       <div className=" shadow-sm shadow-slate-400/40 bg-slate-700 border-slate-600 border-4 m-5 rounded-xl pb-5">
         <div className="  m-auto flex justify-center p-10">
-          <div className=" bg-slate-400 shadow-2xl shadow-slate-600 border-slate-400 border-4 p-2 rounded-xl justify-center justify-items-center place-items-center flex">
-            <h2 className=" font-bold text-7xl text-slate-700">MNU</h2>
+          <div className="  bg-slate-400 shadow-2xl p-2 shadow-slate-600 outline-slate-500 outline-offset-4 outline-dashed  rounded-xl justify-center justify-items-center place-items-center flex">
+            <h2 className=" font-bold text-5xl text-slate-700">MNU</h2>
             <Image src="logominia.svg" width={80} height={80} alt="logo"></Image>
-
           </div>
         </div>
 
