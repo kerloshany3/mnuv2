@@ -1853,7 +1853,7 @@ export const dataofphyscs = [
     {
         id: 16,
         name: "  سكشن الفيزياء يوم الاتنين ",
-        time: 9,
+        time: 10,
         location: "مبني G الدور التاني"
     },
     {
