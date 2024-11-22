@@ -5,7 +5,7 @@ export const dataofcollegesapt = [
         tasks: [
             {
                 id: 1,
-                name: "سكشن it ",
+                name: "سكشن it test ",
                 time: 9,
                 location: "مبني B الدور التاني"
             },
