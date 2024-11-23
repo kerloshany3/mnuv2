@@ -3,7 +3,7 @@
 export const tanbeh = {
 /*     massege: " تنبيه كل سكاشن الماث في مبني G الدور التاني ",
  */    danger: true,
-    massege: ""
+    massege: "اي سكشن مش هتلاقي مكانه صح يبقي مكانه اتغير"
 }
 
 export const dataofcollegesapt = [
