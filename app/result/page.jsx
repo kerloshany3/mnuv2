@@ -6,6 +6,7 @@ import { FaBookmark } from "react-icons/fa";
 import { TiWarning } from "react-icons/ti";
 
 
+
 const page = ({ searchParams }) => {
     const numSec = parseInt(searchParams?.numSec) || 'No value provided';
 
