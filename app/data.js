@@ -2,8 +2,8 @@
 
 export const tanbeh = {
 /*     massege: " تنبيه كل سكاشن الماث في مبني G الدور التاني ",
- */    danger: true,
-    massege: "اي سكشن مش هتلاقي مكانه صح يبقي مكانه اتغير"
+ */    danger: false,
+    massege: "احضر المحاضرات عشان منتسوحش فالفاينل زي الميد فاكر ولا ناسي ؟"
 }
 
 export const dataofcollegesapt = [
