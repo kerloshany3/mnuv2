@@ -6,6 +6,9 @@ export const tanbeh = {
     massege: "احضر المحاضرات عشان منتسوحش فالفاينل زي الميد فاكر ولا ناسي ؟"
 }
 
+
+
+
 export const dataofcollegesapt = [
     {
         id: 1,
@@ -1512,9 +1515,11 @@ export const dataofcollegearba = [
             {
                 id: 3,
                 name: "سكشن البرمجة ",
-                time: 9,
+                time: 3,
                 location: "مبني B الدور التاني"
             },
+           
+
         ],
     },
 
@@ -1869,3 +1874,4 @@ export const dataofphyscs = [
         location: "مبني G الدور التاني"
     },
 ]
+
