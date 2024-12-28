@@ -57,7 +57,7 @@ export const dataofcollegesapt = [
                 id: 2,
                 name: "سكشن math ",
                 time: 1,
-                location: "مبني D الدور التالت"
+                location: "مبني F الدور التالت"
             },
         ],
     },
@@ -75,7 +75,7 @@ export const dataofcollegesapt = [
                 id: 2,
                 name: "سكشن math ",
                 time: 1,
-                location: "مبني D الدور التالت"
+                location: "مبني F الدور التالت"
             },
         ],
     },
@@ -89,7 +89,7 @@ export const dataofcollegesapt = [
                 id: 1,
                 name: "سكشن math ",
                 time: 9,
-                location: "مبني D الدور التالت"
+                location: "مبني F الدور التالت"
             },
             {
                 id: 2,
@@ -108,7 +108,7 @@ export const dataofcollegesapt = [
                 id: 1,
                 name: "سكشن math ",
                 time: 9,
-                location: "مبني D الدور التالت"
+                location: "مبني F الدور التالت"
             },
             {
                 id: 2,
@@ -128,7 +128,7 @@ export const dataofcollegesapt = [
                 id: 1,
                 name: "سكشن math ",
                 time: 9,
-                location: "مبني D الدور التالت"
+                location: "مبني F الدور التالت"
             },
 
         ],
@@ -140,7 +140,7 @@ export const dataofcollegesapt = [
                 id: 1,
                 name: "سكشن math ",
                 time: 9,
-                location: "مبني D الدور التالت"
+                location: "مبني F الدور التالت"
             },
 
         ],
@@ -152,7 +152,7 @@ export const dataofcollegesapt = [
                 id: 1,
                 name: "سكشن math ",
                 time: 11,
-                location: "مبني D الدور التالت"
+                location: "مبني F الدور التالت"
             },
             {
                 id: 2,
@@ -169,7 +169,7 @@ export const dataofcollegesapt = [
                 id: 1,
                 name: "سكشن math ",
                 time: 11,
-                location: "مبني D الدور التالت"
+                location: "مبني F الدور التالت"
             },
             {
                 id: 2,
@@ -186,7 +186,7 @@ export const dataofcollegesapt = [
                 id: 1,
                 name: "سكشن math ",
                 time: 11,
-                location: "مبني D الدور التالت"
+                location: "مبني F الدور التالت"
             },
             {
                 id: 2,
@@ -203,7 +203,7 @@ export const dataofcollegesapt = [
                 id: 1,
                 name: "سكشن math ",
                 time: 11,
-                location: "مبني D الدور التالت"
+                location: "مبني F الدور التالت"
             },
             {
                 id: 2,
@@ -261,7 +261,7 @@ export const dataofcollegesapt = [
                 id: 2,
                 name: "سكشن math ",
                 time: 3,
-                location: "مبني D الدور التالت"
+                location: "مبني F الدور التالت"
             },
         ],
     },
@@ -278,7 +278,7 @@ export const dataofcollegesapt = [
                 id: 2,
                 name: "سكشن math ",
                 time: 3,
-                location: "مبني D الدور التالت"
+                location: "مبني F الدور التالت"
             },
         ],
     },
